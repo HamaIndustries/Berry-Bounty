@@ -10,8 +10,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import symbolics.division.berry_bounty.BerryBounty;
-import symbolics.division.berry_bounty.berry.sinister.SinisterBerry;
-import symbolics.division.berry_bounty.berry.spicy.SpicyBerry;
+import symbolics.division.berry_bounty.berry.SinisterBerry;
+import symbolics.division.berry_bounty.berry.SpicyBerry;
 
 import java.util.ArrayList;
 import java.util.List;
