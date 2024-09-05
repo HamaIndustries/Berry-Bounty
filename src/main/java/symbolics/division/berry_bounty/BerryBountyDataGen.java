@@ -1,4 +1,4 @@
-package symbolics.division;
+package symbolics.division.berry_bounty;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
@@ -9,7 +9,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.registry.RegistryWrapper;
-import symbolics.division.registry.BBItems;
+import symbolics.division.berry_bounty.registry.BBItems;
 
 import java.util.concurrent.CompletableFuture;
 

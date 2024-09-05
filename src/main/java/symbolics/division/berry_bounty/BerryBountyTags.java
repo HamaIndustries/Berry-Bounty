@@ -1,4 +1,4 @@
-package symbolics.division;
+package symbolics.division.berry_bounty;
 
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;

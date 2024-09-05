@@ -1,4 +1,4 @@
-package symbolics.division.registry;
+package symbolics.division.berry_bounty.registry;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.registry.Registries;

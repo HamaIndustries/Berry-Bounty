@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "symbolics.division.mixin.client",
+	"package": "symbolics.division.berry_bounty.client.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		
 	],
 	"injectors": {
 		"defaultRequire": 1

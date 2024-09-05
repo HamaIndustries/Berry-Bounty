@@ -1,4 +1,4 @@
-package symbolics.division.berry;
+package symbolics.division.berry_bounty.berry;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;

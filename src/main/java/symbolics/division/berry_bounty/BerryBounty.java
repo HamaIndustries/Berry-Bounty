@@ -1,11 +1,11 @@
-package symbolics.division;
+package symbolics.division.berry_bounty;
 
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import symbolics.division.registry.BBRegistration;
+import symbolics.division.berry_bounty.registry.BBRegistration;
 
 public class BerryBounty implements ModInitializer {
 	public static final String MOD_ID = "berry_bounty";

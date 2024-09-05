@@ -1,4 +1,4 @@
-package symbolics.division.registry;
+package symbolics.division.berry_bounty.registry;
 
 import com.google.common.collect.ImmutableList;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
@@ -9,8 +9,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
-import symbolics.division.BerryBounty;
-import symbolics.division.berry.BasicBerry;
+import symbolics.division.berry_bounty.BerryBounty;
+import symbolics.division.berry_bounty.berry.BasicBerry;
 
 import java.util.ArrayList;
 import java.util.List;
