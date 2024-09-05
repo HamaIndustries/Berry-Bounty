@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"symbolics.division.Berry_bounty"
+          "symbolics.division.BerryBounty"
 		],
 		"client": [
 			"symbolics.division.Berry_bountyClient"
 		],
 		"fabric-datagen": [
-			"symbolics.division.Berry_bountyDataGenerator"
+			"symbolics.division.BerryBountyDataGen"
 		]
 	},
 	"mixins": [

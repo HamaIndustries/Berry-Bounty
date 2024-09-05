@@ -2,10 +2,12 @@ package symbolics.division;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import symbolics.division.registry.BBRegistration;
 
-public class Berry_bounty implements ModInitializer {
+public class BerryBounty implements ModInitializer {
 	public static final String MOD_ID = "berry_bounty";
 
 	// This logger is used to write text to the console and the log file.
@@ -18,7 +20,12 @@ public class Berry_bounty implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		BBRegistration.init();
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Bountiful berries arriving at a basket near you!");
+	}
+
+	public static Identifier id(String path) {
+		return Identifier.of(MOD_ID, path);
 	}
 }
