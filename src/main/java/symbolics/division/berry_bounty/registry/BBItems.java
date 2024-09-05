@@ -10,7 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.text.Text;
 import symbolics.division.berry_bounty.BerryBounty;
-import symbolics.division.berry_bounty.berry.BasicBerry;
+import symbolics.division.berry_bounty.berry.sinister.SinisterBerry;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +22,8 @@ public final class BBItems {
     public static final Item BLUE_BERRY = basicBerry("blue_berry");
     public static final Item YELLOW_BERRY = basicBerry("yellow_berry");
 
+    public static final Item SINISTER_BERRY = item("sinister_berry", new SinisterBerry(new Item.Settings().food(FoodComponents.SWEET_BERRIES)));
+
     public static final RegistryKey<ItemGroup> ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), BerryBounty.id("item_group"));
     public static final ItemGroup ITEM_GROUP = FabricItemGroup.builder()
             .icon(RED_BERRY::getDefaultStack)
@@ -29,7 +31,10 @@ public final class BBItems {
             .build();
 
     private static Item basicBerry(String name) {
-        Item item = new BasicBerry(new Item.Settings().food(FoodComponents.SWEET_BERRIES));
+        return item(name, new Item(new Item.Settings().food(FoodComponents.SWEET_BERRIES)));
+    }
+
+    private static Item item(String name, Item item) {
         Registry.register(Registries.ITEM, BerryBounty.id(name), item);
         allItems.add(item);
         return item;
