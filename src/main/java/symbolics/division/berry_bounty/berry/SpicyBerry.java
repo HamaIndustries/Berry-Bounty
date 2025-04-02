@@ -50,6 +50,6 @@ public class SpicyBerry extends Berry {
             newFrozenTicks = 0;
         entity.setFrozenTicks(newFrozenTicks);
         //give consumer warmth I effect for 4 seconds to halve the rate of freezing
-        entity.addStatusEffect(new StatusEffectInstance(BBEffects.WARMTH, 80, 1));
+        entity.addStatusEffect(new StatusEffectInstance(BBEffects.WARMTH, 80, 0));
     }
 }
