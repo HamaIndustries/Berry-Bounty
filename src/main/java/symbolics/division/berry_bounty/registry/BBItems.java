@@ -32,7 +32,7 @@ public final class BBItems {
 
     public static final RegistryKey<ItemGroup> ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), BerryBounty.id("item_group"));
     public static final ItemGroup ITEM_GROUP = FabricItemGroup.builder()
-            .icon(RED_BERRY::getDefaultStack)
+            .icon(SPICY_BERRY::getDefaultStack)
             .displayName(Text.translatable("itemGroup." + BerryBounty.MOD_ID))
             .build();
 
